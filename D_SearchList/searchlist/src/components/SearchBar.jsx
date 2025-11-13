@@ -3,7 +3,7 @@ import React from 'react'
 const SearchBar = ({searchName,setSearchName}) => {
     const names = ["Dhrishnav","Rakesh","Poorva","Srinivas","Shobha","Shashank"];
 
-    const filteredNames = names.filter((name)=>name.toLowerCase().includes(searchName.toLowerCase()));
+    const filteredNames = names.filter((name)=>name.toLowerCase().includes(searchName));
 
   return (
     <div className='flex flex-col'>
