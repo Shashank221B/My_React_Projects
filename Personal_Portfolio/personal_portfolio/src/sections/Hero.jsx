@@ -1,4 +1,4 @@
-import photo from "../assets/Images/shas_passImg_Circ.png"
+// import photo from "../assets/Images/shas_passImg_Circ.png"
 
 const Hero = () => {
   return (
@@ -13,7 +13,7 @@ const Hero = () => {
 
       {/* Profile Image */}
       <img
-        src={photo}
+        src="/shas_passImg_Circ.png"
         alt="My_ProfileImage"
         className="w-36 h-36 sm:w-44 sm:h-44 md:w-60 md:h-60 lg:w-72 lg:h-72 rounded-full shadow-lg object-cover mt-2"
       />
